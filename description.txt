@@ -1,0 +1,18 @@
+Task1: Retrieve all the articles relevant to a given text query in **Data-1**.
+    
+    What I Understood From the Problem ?
+   -> In this task, we have been given a data set of all the information. Now, given a query, we have 
+      to return the articles that are related to the query. For this, we have calculated the similarity
+      between the query and the full articles of every row of the data set using Cosine Similarity and 
+      returned the full articles having good similarity score. 
+
+
+    Algorithm Used :
+
+    Step 1. Parse CSV file and convert it into list.
+    Step 2. Select full article column from each row of the list and store it in a newly created set.
+    Step 3. Append the given query in the same set.
+    Step 4. Find similarity score between given query and each full article which returns similarity score matrix.
+    Step 5. Convert the obtained matrix into list.
+    Step 6. Create new JSON document which stores the score and the full article corresponding to every score in the matrix.
+    Step 7. Sort the JSON document and show the number of results as required.
