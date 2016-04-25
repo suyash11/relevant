@@ -1,0 +1,12 @@
+setup.py
+relevant/__init__.py
+relevant/constants.py
+relevant/cosine_similarity.py
+relevant/csv_to_list.py
+relevant/main.py
+relevant/object_dict.py
+relevant.egg-info/PKG-INFO
+relevant.egg-info/SOURCES.txt
+relevant.egg-info/dependency_links.txt
+relevant.egg-info/not-zip-safe
+relevant.egg-info/top_level.txt
